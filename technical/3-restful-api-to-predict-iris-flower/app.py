@@ -17,7 +17,7 @@ def iris_prediction():
         weight_features = std_scaler.transform([weight_features])
         print(weight_features)
         result = model.predict(weight_features)
-        weight = {
+        weight-height = {
             '0': 'Gender',
             '1': 'Height',
         }
